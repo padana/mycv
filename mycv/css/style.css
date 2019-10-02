@@ -1,0 +1,213 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+*{
+   box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    background-color: rgb(89, 89, 248);
+    padding: 0.1px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.head a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 32px;
+    padding-left: 80px;
+}
+.head h5{
+    color: #fff;
+    padding-left: 10px;
+    font-size: 18px;
+}
+header{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+header img{
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-top: -100px;
+    
+}
+header h1, h3{
+    font-size: 22px;
+    margin: 5px;
+    padding-right: 200px;
+    
+    
+}
+body span{
+    display: none;
+}
+header h3{
+    font-size: 18px;
+    color: rgb(89, 89, 248);
+    padding-right: 200px;
+   
+}
+ 
+.pre{
+    width: 100%; 
+    color: #fff;
+    background-color: rgb(89, 89, 248);
+    padding: 0.1px;
+
+}
+.pre h1{
+    text-align: center;  
+}
+.pre li{
+    padding-left: 250px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    height: 30px;
+}
+.exp{
+    width: 100%; 
+    padding: 0.1px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+} 
+.exp h1{
+    text-align: center;  
+    padding-bottom: 20px;
+    color:  rgb(89, 89, 248);
+}
+.exp h3, p{
+    padding-left: 250px;
+}
+.exp span{
+    float: right;
+    padding-right: 200px;
+}
+.for{
+    width: 100%; 
+    color: #fff;
+    background-color: rgb(89, 89, 248);
+    padding: 0.1px;
+
+}
+.for h1{
+    text-align: center;  
+    
+}
+.for span{
+    float: right;
+    padding-right: 200px;
+}
+
+.pass{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pass h1{
+    text-align: center;
+    color: rgb(89, 89, 248);
+}
+Footer{
+    width: 100%;
+    background-color: rgb(89, 89, 248);
+    padding: 0.1px;
+}
+footer p a{
+    color: #fff;
+    display: inline;
+    padding-left: 20px;
+    
+} 
+footer .p2{
+    position: relative;
+    width: 400px;
+    left: 300px;
+    top: -65px;
+}
+@media screen and (max-width: 768px){
+    body h1{
+        font-size: 3.7vw;
+    }
+    .head h5{
+        font-size: 3.2vw;
+    }
+    .head a{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+    
+    header img{
+         border-radius: 50%;
+         margin: auto;   
+         width: 50%;
+    }
+    header h1{
+        margin: 5px;
+        padding-right: 10px;
+    }
+    header h3{
+        margin: 5px;
+        padding-right: 10px;
+    }
+    
+    .pre li{
+        padding-left: 5px;
+        font-size: 3.5vw;
+    }
+    .exp h3{
+     padding-left: 5px;
+     font-size: 3.5vw;
+    }
+   
+    .exp p{
+        padding-left: 5px;
+        font-size: 3.5vw;
+
+       }
+    .for p{
+        padding-left: 5px;
+        font-size: 3.5vw;
+    }
+    .pass h1, p{
+        padding-left: 5px;
+        font-size: 3.5vw;
+    }
+    footer .p2{
+        width: 200px;
+        position: relative;
+        left: 0px;
+        top:  5px;
+    }
+ 
+}
+@media screen and (max-width: 228px){
+    header img{
+        border-radius: 50%;
+        margin: auto;   
+        width: 20%;
+   }
+   header h1{
+       font-size: 2.2vw;
+       margin: 5px;
+       padding-right: 10px;
+   }
+   header h3{
+    font-size: 2.2vw;
+       margin: 5px;
+       padding-right: 10px;
+   }
+   .exp h3{
+      
+   }
+}
+
+ 
